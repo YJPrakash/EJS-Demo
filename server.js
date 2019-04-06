@@ -18,5 +18,5 @@ app.get('/about', function(req, res) {
     res.render('pages/about');
 });
 
-app.listen(8000);
+app.listen(80);
 console.log('8000 is the magic port');
